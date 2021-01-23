@@ -1,0 +1,100 @@
+:root {
+    --dark: #242331;
+    --dark2: #171620;
+    --fontwhite: #dee0e6;
+    --mainColor: rgb(44,112, 163);
+    --mainColorShadow: 	hsla(205, 57%, 25%, 0.342);
+    --mainColor2: #0e850e;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+.userContentInner, .bgDiv {
+    background-color: var(--dark2) !important;
+    color: var(--fontwhite) !important;
+}
+.userButtons {
+    box-shadow: 0px 0px 20px var(--mainColorShadow);
+}
+.learnMoreBtn {
+    display: none;
+}
+.edubarProfilebox {
+    border-radius: 1em;
+    background: none;
+    transition: 0.2s;
+}
+.edubarProfilebox:hover {
+    background-color: var(--mainColorShadow);
+}
+.userButtons li {
+    background-color: var(--dark) !important;
+}
+.userHomeEtest .userButtons > li.eb {
+	background: transparent;
+}
+.userHomeEtest .userButtons > li.eb a[data-id="dailyplan"] {
+	margin-bottom: 2px;
+    border-bottom: 2px solid var(--dark2);
+}
+.userHomeEtest .userButtons > li.eb a {	
+	background-color: var(--dark) !important;
+}
+.userHomeEtest .userButtons > li a {
+    background-color: var(--dark) !important;
+    transition: 0.1s;
+}
+.userHomeEtest .userButtons > li a:hover {
+	background-color: var(--dark) !important;
+    box-shadow: inset 0px 0px 1px var(--mainColor);
+}
+.userTopDiv {
+    background-color: var(--dark2);
+    border-bottom: var(--dark2);
+}
+.userHomeOther {
+    background-color: var(--dark2) !important;
+}
+.user-novyPrvok {
+    background-color: var(--dark2) !important;
+}
+.userRozvrh .rozvrh .selected {
+    background-color: var(--mainColorShadow) !important;
+}
+.edubarSidebar, .etestEnabled {
+    background-color: var(--dark);
+    color: var(--fontwhite) !important;
+}
+.edubarMenuitem .edubarSmartLink span {
+    color: var(--fontwhite) !important;
+}
+.edubarMenuitem a span {
+    color: var(--fontwhite) !important;
+}
+.edubarstart-main {
+    background-color: var(--dark2) !important;
+}
+.edubarstart-header {
+    background-color: var(--dark2) !important;
+    opacity: 100%;
+    margin-bottom: 0px;
+}
+.edubarstart-tabs-outer {
+    background-color: var(--dark) !important;
+}
+.edubarstart-inner {
+    background-color: var(--dark) !important;
+}
+h1,h2,h3 {
+    color: var(--fontwhite) !important;
+}
+.edubarStartButtonBox {
+    border-radius: 2em;
+    box-shadow:10px 10px 20px var(--mainColorShadow);
+    background-color: var(--dark);
+}
+.edubarHeader {
+    background-color: var(--dark);
+    box-shadow: 0px 10px 20px var(--mainColorShadow);
+}
