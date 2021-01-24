@@ -14,7 +14,7 @@
             <p>Custom dark mode CSS theme for EduPage. Making EduPage look nice, because it's not.</p>
         </div>
     </header>
-    <main>
+    <main id="flex-con">
         <a class="firefox" href="./t/firefox.html">
             <div class="wrap">
                 <h1>Firefox</h1>
@@ -37,5 +37,18 @@
     <footer>
         <a target="_blank" href="https://forms.gle/PhSzedMY2A6vVKm99">Found a bug? Report it here to contribute!</a>
     </footer>
+<style>
+ .flex-con-mobile {
+    flex-direction: column !important;
+ }
+</style>
+<script>
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    document.getElementById("flex-con").classList.add(".flex-con-mobile");
+}
+else{
+    console.log("sup");
+}  
+</script>
 </body>
 </html>
