@@ -1,4 +1,7 @@
 # EduPlus
+
+https://c1tizen.github.io/EduPlus/
+
  Web CSS theme for EduPage dark mode.
  Making EduPage look nice, because it's not.
 
